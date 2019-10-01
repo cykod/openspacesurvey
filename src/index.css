@@ -126,6 +126,7 @@ code {
 
   .demographics__chart {
     flex: 0 0 100%;
+    max-width:100%;
   }
 
   .chart__title, .demographics__title {
