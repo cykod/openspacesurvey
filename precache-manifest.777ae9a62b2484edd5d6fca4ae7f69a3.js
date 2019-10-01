@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e02089adf94e77f9ccc174b16f79995",
+    "revision": "2ef5017b6637140691d810b04cb56d85",
     "url": "/openspacesurvey/index.html"
   },
   {
-    "revision": "b8d103a8511342447599",
-    "url": "/openspacesurvey/static/css/main.55367703.chunk.css"
+    "revision": "ba445f61887ea3bc4ac1",
+    "url": "/openspacesurvey/static/css/main.81a3b678.chunk.css"
   },
   {
     "revision": "b2936bca476467f12293",
     "url": "/openspacesurvey/static/js/2.bac1feab.chunk.js"
   },
   {
-    "revision": "b8d103a8511342447599",
-    "url": "/openspacesurvey/static/js/main.9d14978f.chunk.js"
+    "revision": "ba445f61887ea3bc4ac1",
+    "url": "/openspacesurvey/static/js/main.861ba4ef.chunk.js"
   },
   {
     "revision": "aaa86ec810dac3a35e31",
