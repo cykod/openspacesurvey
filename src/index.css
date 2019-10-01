@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding:0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -7,7 +8,193 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* { box-sizing: border-box; }
+
+html { margin:0; padding:0; }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.options__label {
+  display:inline-block;
+  padding-right:5px;
+  font-style:italic;
+  color:#AAA;
+}
+
+.options__label--checked {
+  font-style:normal;
+  color:#333;
+}
+
+.options {
+  position:fixed;
+  left:20px;
+  top:90px;
+  width:260px;
+}
+
+
+.options__title {
+  padding-top:20px;
+  padding-bottom:5px;
+  font-weight:bold;
+}
+
+.demographics {
+  display:flex;
+  margin-left:250px;
+  flex-wrap: wrap;
+}
+
+.demographics__chart {
+  flex: 0 0 50%;
+}
+
+.demographics__title {
+  text-align:center;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.chart {
+  margin-left:70px;
+  position:relative;
+  margin-top:20px;
+  padding-top:16px;
+}
+.charts {
+  margin-left:250px;
+}
+
+.chart__title {
+  text-align:left;
+  padding-bottom:10px;
+  padding-right:70px;
+  font-size:28px;
+  font-weight:bold;
+  max-width:70%;
+  padding-left:60px;
+}
+
+.chart__words {
+  padding-left:50px;
+}
+
+.chart__single-answers {
+  margin: 0 70px 20px 70px;
+}
+
+.chart__options {
+  position:absolute;
+  top:0px;
+  right:140px;
+}
+
+.chart__option {
+  border:1px solid #333;
+  background-color: inherit;
+  border-radius:4px;
+}
+
+.chart__option--selected {
+  background-color: #119911;
+  color:white;
+}
+
+.chart__option {
+  padding:10px 0px; 
+}
+
+.chart__word {
+  padding:10px;
+  font-style:italic;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .options { 
+    position:relative; width:100%; padding:0px 20px 20px 20px;
+     left:auto;
+  top:auto;
+  width:auto;
+  }
+
+  .charts, .demographics { margin-left:0px; }
+
+  .demographics__chart {
+    flex: 0 0 100%;
+  }
+
+  .chart__title, .demographics__title {
+    max-width:100%;
+    font-size:18px;
+  }
+
+  .chart__options {
+    right:0px;
+  }
+
+  .chart { margin-left:0px; }
+
+  .chart__wrapper { overflow-x:auto; }
+
+  .chart__chart { width:1280px; }
+
+}
+
+
+
+.header--no-banner {
+    height: 80px
+}
+
+.header__wrapper {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    z-index: 2
+}
+
+.header__wrapper--no-banner {
+    background-color: #33A353
+}
+
+.header__content {
+    height: 60px;
+    display: flex
+}
+
+.header__title {
+    color: #fff;
+    flex: 0 0 auto;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px
+}
+
+.header__line1 {
+    font-size: 18px
+}
+
+.header__line2 {
+    font-size: 21px
+}
+
+.header__menu {
+    flex: 1 0 auto;
+    text-align: right
+}
+
+.header__item {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 15px 15px 15px;
+    color: #fff;
+    font-size: 18px
 }
