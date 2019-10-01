@@ -156,7 +156,7 @@ class MultiBarChart extends React.Component {
   renderChartOptions() {
     const { display } = this.state;
       return <div className='chart__options'>
-        <button className={display == 'bar' && 'chart__option--selected'} title="Bar chart of participant responses" onClick={() => this.setDisplay('bar')}><FaSignal/></button>
+        <button className={display == 'bar' ? 'chart__option--selected' : undefined} title="Bar chart of participant responses" onClick={() => this.setDisplay('bar')}><FaSignal/></button>
         { (this.props.data.values.length > 1) &&  <button title="Stacked view of each response grouped by option" className={display == 'stack' ? 'chart__option--selected' : undefined} onClick={() => this.setDisplay('stack')}><FaLayerGroup/></button> }
         <button title="Percent of respondents to the question who selected a specific option" onClick={() => this.setDisplay('percent')} className={display == 'percent' ? 'chart__option--selected' : undefined }><FaPercent/></button>
         { this.hasNoOpinion() && <button className={this.state.noOpinion  && 'chart__title__option--selected'} onClick={this.toggleNoOpinion}>No Opinion</button> }

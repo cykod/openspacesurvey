@@ -55,7 +55,7 @@ class DemoPieChart  extends React.Component {
          <PieChart title={this.props.title} >
           <Pie data={this.props.data} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={100} label={this.customLabel}
           animationDuration={400}  animationBegin={0}  >
-           {map(this.props.data,(entry, index) => <Cell fill={this.fill[index]}/>)}
+           {map(this.props.data,(entry, index) => <Cell key={`cell-${index}`} fill={this.fill[index]}/>)}
           </Pie>
 
         </PieChart>
