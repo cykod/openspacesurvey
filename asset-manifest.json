@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/openspacesurvey/static/css/main.81a3b678.chunk.css",
-    "main.js": "/openspacesurvey/static/js/main.203d97ae.chunk.js",
-    "main.js.map": "/openspacesurvey/static/js/main.203d97ae.chunk.js.map",
+    "main.js": "/openspacesurvey/static/js/main.525fe48f.chunk.js",
+    "main.js.map": "/openspacesurvey/static/js/main.525fe48f.chunk.js.map",
     "runtime-main.js": "/openspacesurvey/static/js/runtime-main.3a4c9720.js",
     "runtime-main.js.map": "/openspacesurvey/static/js/runtime-main.3a4c9720.js.map",
     "static/js/2.bac1feab.chunk.js": "/openspacesurvey/static/js/2.bac1feab.chunk.js",
     "static/js/2.bac1feab.chunk.js.map": "/openspacesurvey/static/js/2.bac1feab.chunk.js.map",
     "index.html": "/openspacesurvey/index.html",
-    "precache-manifest.0a062e9cc5e60b2b8ac94ab2f6a025f9.js": "/openspacesurvey/precache-manifest.0a062e9cc5e60b2b8ac94ab2f6a025f9.js",
+    "precache-manifest.dbf766d48d9b6d88ef33fd04000049d7.js": "/openspacesurvey/precache-manifest.dbf766d48d9b6d88ef33fd04000049d7.js",
     "service-worker.js": "/openspacesurvey/service-worker.js",
     "static/css/main.81a3b678.chunk.css.map": "/openspacesurvey/static/css/main.81a3b678.chunk.css.map"
   }
