@@ -169,7 +169,7 @@ class App extends React.Component {
         <DemoPieChart  data={this.pieChartData('seniors')} title="Seniors in Household" />
       </div>
       <div className='charts'>`
-        <MultiBarChart  data={this.filterMultiData(bringingOrKeeping)} title="How important were the following Open Space and Recreational Resources in bringing you to or keeping youu in Amesbury?" />
+        <MultiBarChart  data={this.filterMultiData(bringingOrKeeping)} title="How important were the following Open Space and Recreational Resources in bringing you to or keeping you in Amesbury?" />
         <MultiBarChart  data={this.filterMultiData(keepingCommunityCharacter)} title="How important do you rate the following to maintaining Amesbury's community character?" />
         <MultiBarChart  data={this.filterMultiData(satisfiedForGroups)} title="How satisfied are you with Amesbury's recreational options for the following groups?"/>
         <MultiBarChart  data={this.filterMultiData(managingAndMaintaining,"first")} title="How is Amesbury doing in managing and maintaining its Open Space and Recreation Resources?" />
