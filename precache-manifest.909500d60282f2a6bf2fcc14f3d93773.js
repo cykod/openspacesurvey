@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96758e8f7547b5c9daf1869dbe5dae5c",
+    "revision": "9b21531aa5c2898cbaf1881f05b36e27",
     "url": "/openspacesurvey/index.html"
   },
   {
-    "revision": "c060c9f5f534f4cada82",
+    "revision": "8095f642d2f87c0cf199",
     "url": "/openspacesurvey/static/css/main.81a3b678.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/openspacesurvey/static/js/2.bac1feab.chunk.js"
   },
   {
-    "revision": "c060c9f5f534f4cada82",
-    "url": "/openspacesurvey/static/js/main.525fe48f.chunk.js"
+    "revision": "8095f642d2f87c0cf199",
+    "url": "/openspacesurvey/static/js/main.2ca58fec.chunk.js"
   },
   {
     "revision": "aaa86ec810dac3a35e31",
