@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/openspacesurvey/static/css/main.39ffe534.chunk.css",
-    "main.js": "/openspacesurvey/static/js/main.1975fb23.chunk.js",
-    "main.js.map": "/openspacesurvey/static/js/main.1975fb23.chunk.js.map",
-    "runtime-main.js": "/openspacesurvey/static/js/runtime-main.3a4c9720.js",
-    "runtime-main.js.map": "/openspacesurvey/static/js/runtime-main.3a4c9720.js.map",
-    "static/js/2.e51b03ef.chunk.js": "/openspacesurvey/static/js/2.e51b03ef.chunk.js",
-    "static/js/2.e51b03ef.chunk.js.map": "/openspacesurvey/static/js/2.e51b03ef.chunk.js.map",
-    "index.html": "/openspacesurvey/index.html",
-    "precache-manifest.184662526d7c386fb55b28db222b70e3.js": "/openspacesurvey/precache-manifest.184662526d7c386fb55b28db222b70e3.js",
-    "service-worker.js": "/openspacesurvey/service-worker.js",
-    "static/css/main.39ffe534.chunk.css.map": "/openspacesurvey/static/css/main.39ffe534.chunk.css.map"
+    "main.css": "/static/css/main.39ffe534.chunk.css",
+    "main.js": "/static/js/main.7d8f967b.chunk.js",
+    "main.js.map": "/static/js/main.7d8f967b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6019b5f3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6019b5f3.js.map",
+    "static/js/2.e51b03ef.chunk.js": "/static/js/2.e51b03ef.chunk.js",
+    "static/js/2.e51b03ef.chunk.js.map": "/static/js/2.e51b03ef.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cd1b7624e6c1d84404cb5e56f1b3ec93.js": "/precache-manifest.cd1b7624e6c1d84404cb5e56f1b3ec93.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.39ffe534.chunk.css.map": "/static/css/main.39ffe534.chunk.css.map"
   }
 }
