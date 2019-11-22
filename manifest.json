@@ -2,7 +2,6 @@
   "short_name": "Amesbury Open Space",
   "name": "Amesbury Open Space Survey 2019",
   "icons": [
-    {
   ],
   "start_url": ".",
   "display": "standalone",
